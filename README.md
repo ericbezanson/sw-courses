@@ -1,6 +1,6 @@
 ## Star Wars Courses
 
-this is a sample app designed to brush up skills with:
+this is a sample app designed to brush up on:
 - modern react 
 - next JS 
 - tailwind css
