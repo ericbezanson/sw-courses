@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Star Wars Courses
+
+this is a sample app designed to brush up on:
+- modern react 
+- next JS 
+- tailwind css
+- mobX state management
+- Incremental Static Regeneration (ISR)
 
 ## Getting Started
 
@@ -20,17 +27,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## NOTE:
+- feel free to add custom data to a JSON BIN and setup your own env, or use the data provided in /mocks (https://jsonbin.io/)
 
-To learn more about Next.js, take a look at the following resources:
+## TODO!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Set up proper cacheing / implement ISR, remember the 4 caching methods in next (memoization, data cache, full route cache, router cache)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- improve mobX implementation. Suggestions: add explicitly annotated configuration object / update global singleton instance and instead inject store via React Context.
 
-## Deploy on Vercel
+- add loading states, spinners or 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Setup the CourseStore, and access it from the course video page to fill out some meta data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Create a side panel on the player to jump between lessons
+
+- continue creating components, utilizing best practices and optimizing! 

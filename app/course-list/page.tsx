@@ -19,6 +19,7 @@ export default async function page() {
     return (
         <div className="mt-8">
             <>
+                <h1 className="w-full mt-8 text-4xl font-bold text-center text-transform: capitalize">Star Wars Courses:</h1>
                 {data.map((course) => (
                     <CourseBig key={course.courseId} course={course} />
                 ))}
