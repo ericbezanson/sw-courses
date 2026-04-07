@@ -34,6 +34,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 - Set up proper cacheing / implement ISR, remember the 4 caching methods in next (memoization, data cache, full route cache, router cache)
 
+- improve mobX implementation. Suggestions: add explicitly annotated configuration object / update global singleton instance and instead inject store via React Context.
+
 - add loading states, spinners or 
 
 - Setup the CourseStore, and access it from the course video page to fill out some meta data
